@@ -1,0 +1,243 @@
+body{
+    background-color: #ffebcd;
+}
+.container{
+    display: block;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_ah{
+    border-radius: 60%;
+    height: 54px;
+    width: 80px;
+    
+    background-color:cadetblue; 
+    color:cadetblue;
+    display:inline-block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap:5px;
+    padding: 0px 10px;
+
+}
+
+nav{
+    font-family: 'Noto Serif', serif;
+}
+nav>ul
+{
+    display:flex;
+    list-style-type: none;
+    gap: 15px;
+    background-color: cadetblue;
+    height:75px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+}
+
+.logo_li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.Container{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 8em; */
+    margin: 2em 5em 8em 5em;
+    padding: 10px;
+    border-radius: 3%;
+    
+}
+
+.bottom{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 1em;
+    position: fixed;
+    bottom:0;
+}
+.controllercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center; 
+    padding: 0;
+    margin: 0;
+}
+.controllerrange-container{
+        display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     align-self: center;
+ }
+.range{
+    width: 100%;
+}
+.controllerButton{
+    display: flex; 
+    justify-content: space-between;
+    height:0.5em;
+    padding: 1em;
+}
+#btn_btm{
+    cursor: pointer;
+}
+
+.fg
+{
+    display: flex;
+  align-items: center;
+color: beige;
+    width: 30px;
+    height: 110px;
+    cursor: pointer;
+    
+
+}
+
+.background_img{
+    /* margin-left: 610px;
+    border-radius: 2%;
+     margin-top: 55px; */
+    width: 100%;
+    height: 150vh;
+   margin-top: 50px;
+  
+   
+}
+.list{
+    width: 70%;
+}
+
+.Music_lists{
+   
+    display: flex;
+   /* justify-content:center;*/
+    gap:10px;
+    /*align-items: start;*/
+    background-color: palevioletred;
+    /*margin-right: 700px;*/
+    list-style: none;
+    height: 80px;
+    margin: 10px;
+    /* border-radius: 10%; */
+    z-index: 0;
+     /*padding://*20px 0px; */
+    width:90%;
+    /*height: calc(45 - 78vh);
+        /* Calculate remaining height for container2 
+        overflow-y:auto; */
+        border-radius: 20px;
+        
+        
+       
+        
+
+    
+    
+    
+
+}
+
+.duration{
+    padding-left: 70px;
+    /*padding-right: 40px;*/
+    font-weight: bolder;
+    color: black;
+   
+
+}
+
+.mu_title{
+   /* padding: 30px 30px;*/
+   display: flex;
+   justify-content: space-between;
+   margin-left: 20px;
+   text-align: center;
+   align-items: center;
+width: 70%;
+}
+
+.albums{
+    margin:7px 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 10%;
+}
+
+.alb_icons{
+    display: flex;
+    
+    /*margin: 70px 0px*/
+    cursor: pointer;
+    padding-left:50px;
+    margin-top: 35px;
+        
+}
+.Equalizer{
+    height: 50px;
+    opacity: 0; /*If I set opacity 0 it wont work*/
+    transition: opacity 1s ease-in;
+    
+}
+.s_name{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 40px;
+font-weight: bolder;
+color:#34568B;
+font-family: 'Bebas Neue', 'Avenir', 'Montserrat', 'Helvetica Neue';
+}
+
+.duration{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.all_songs {
+    display: flex;
+    flex-direction: column;
+   /* align-items: ;
+    /*chatgpt*/
+    
+    
+    /* Change this property */
+}
+
+.title{
+    color:beige;
+    font-weight: bolder;
+    padding-bottom: 35px;
+}
+    
+    
+    
+    
+
+
+  
+  
+
+    
